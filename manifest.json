@@ -1,0 +1,80 @@
+{
+	"repo": {
+		"name": "TB App Repo",
+		"icon": "https://avatars.githubusercontent.com/u/111026938?s=200&v=4"
+	},
+	"apps": [
+		{
+			"name": "Ruffle",
+			"icon": "https://tbapps.pages.dev/assets/com.tb.ruffle/icon.svg",
+			"description": "Ruffle is a Flash Player emulator built in the Rust programming language.",
+			"developer": "Ruffle Team",
+			"pkg-name": "Ruffle",
+			"wmArgs": {
+				"title": {
+					"text": "Ruffle",
+					"weight": 600
+				},
+				"icon": "https://tbapps.pages.dev/assets/com.tb.ruffle/icon.svg",
+				"src": "https://ruffle.rs/demo",
+				"size": {
+					"width": 600,
+					"height": 400
+				},
+				"single": true,
+				"resizable": true,
+				"proxy": true,
+                "requirements": {
+                    "OS": "v2.0.0-beta2",
+                    "proxy": "Scramjet"
+                }
+			}
+		},
+		{
+			"name": "YouTube",
+			"icon": "https://tbapps.pages.dev/assets/com.tb.youtube/icon.png",
+			"description": "Share your videos with friends, family, and the world.",
+			"developer": "Google",
+			"pkg-name": "youtube",
+			"images": ["https://tbapps.pages.dev/assets/com.tb.youtube/images/1.png"],
+			"wmArgs": {
+				"title": {
+					"text": "YouTube",
+					"weight": 600
+				},
+				"icon": "https://tbapps.pages.dev/assets/com.tb.youtube/icon.png",
+				"src": "https://youtube.com",
+				"size": {
+					"width": 600,
+					"height": 400
+				},
+				"single": true,
+				"resizable": true,
+				"proxy": true
+			}
+		},
+		{
+			"name": "X",
+			"icon": "https://tbapps.pages.dev/assets/com.tb.x/icon.svg",
+			"description": "From breaking news and entertainment to sports and politics, get the full story with all the live commentary.",
+            "developer": "X Development",
+			"pkg-name": "xapp",
+			"wmArgs": {
+				"title": {
+					"text": "X",
+					"weight": 600
+				},
+				"icon": "https://tbapps.pages.dev/assets/com.tb.x/icon.svg",
+				"src": "https://twitter.com",
+				"size": {
+					"width": 600,
+					"height": 400
+				},
+				"single": true,
+				"resizable": true,
+				"proxy": true
+			}
+		}
+	],
+    "packages": []
+}
