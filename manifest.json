@@ -24,10 +24,10 @@
 				"single": true,
 				"resizable": true,
 				"proxy": true,
-                "requirements": {
-                    "OS": "v2.0.0-beta2",
-                    "proxy": "Scramjet"
-                }
+				"requirements": {
+					"OS": "v2.0.0-beta2",
+					"proxy": "Scramjet"
+				}
 			}
 		},
 		{
@@ -57,7 +57,7 @@
 			"name": "X",
 			"icon": "https://tbapps.pages.dev/assets/com.tb.x/icon.svg",
 			"description": "From breaking news and entertainment to sports and politics, get the full story with all the live commentary.",
-            "developer": "X Development",
+			"developer": "X Development",
 			"pkg-name": "xapp",
 			"wmArgs": {
 				"title": {
@@ -76,5 +76,5 @@
 			}
 		}
 	],
-    "packages": []
+	"packages": []
 }
