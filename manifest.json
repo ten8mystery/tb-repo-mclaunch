@@ -74,6 +74,265 @@
 				"resizable": true,
 				"proxy": true
 			}
+		},
+		{
+			"name": "Spotify",
+			"icon": "https://tbapps.pages.dev/assets/com.tb.spotify/icon.png",
+			"description": "Spotify is a digital music service that gives you access to millions of songs.",
+			"developer": "Spotify",
+			"pkg-name": "spotify",
+			"wmArgs": {
+				"title": {
+					"text": "Spotify",
+					"weight": 600
+				},
+				"icon": "https://tbapps.pages.dev/assets/com.tb.spotify/icon.png",
+				"src": "https://open.spotify.com",
+				"size": {
+					"width": 600,
+					"height": 400
+				},
+				"single": true,
+				"resizable": true,
+				"proxy": true
+			}
+		},
+		{
+			"name": "Discord",
+			"icon": "https://tbapps.pages.dev/assets/com.tb.discord/icon.svg",
+			"description": "Discord is the easiest way to talk over voice, video, and text. Talk, chat, hang out, and stay close with your friends and communities.",
+			"developer": "Discord",
+			"pkg-name": "discord",
+			"images": [
+				"https://tbapps.pages.dev/assets/com.tb.discord/images/1.png",
+				"https://tbapps.pages.dev/assets/com.tb.discord/images/2.png",
+				"https://tbapps.pages.dev/assets/com.tb.discord/images/3.png",
+				"https://tbapps.pages.dev/assets/com.tb.discord/images/4.png",
+				"https://tbapps.pages.dev/assets/com.tb.discord/images/5.png"
+			],
+			"wmArgs": {
+				"title": {
+					"text": "Discord",
+					"weight": 600
+				},
+				"icon": "https://i.imgur.com/ZQ2tCy1.png",
+				"src": "https://discord.com/app",
+				"size": {
+					"width": 600,
+					"height": 400
+				},
+				"single": false,
+				"resizable": true,
+				"proxy": true
+			}
+		},
+		{
+			"name": "Visual Studio Code",
+			"icon": "https://tbapps.pages.dev/assets/com.tb.vscode/code.png",
+			"description": "Edit Code Files, Save Them and Commit them just like VIM or vscode!",
+			"developer": "Microsoft",
+			"pkg-name": "code",
+			"wmArgs": {
+				"title": {
+					"text": "Visual Studio Code",
+					"weight": 600
+				},
+				"icon": "https://tbapps.pages.dev/assets/com.tb.vscode/code.png",
+				"src": "https://vscode.dev",
+				"size": {
+					"width": 600,
+					"height": 400
+				},
+				"single": false,
+				"resizable": true,
+				"proxy": true
+			}
+		},
+		{
+			"name": "Reddit",
+			"icon": "https://tbapps.pages.dev/assets/com.tb.reddit/logo.png",
+			"description": "The official Reddit client for browsing Reddit on Terbium.",
+			"developer": "Reddit Inc",
+			"pkg-name": "reddit",
+			"images": ["https://tbapps.pages.dev/assets/com.tb.reddit/1.jpg", "https://tbapps.pages.dev/assets/com.tb.reddit/2.jpg", "https://tbapps.pages.dev/assets/com.tb.reddit/3.jpg"],
+			"wmArgs": {
+				"title": {
+					"text": "Reddit",
+					"weight": 600
+				},
+				"icon": "https://tbapps.pages.dev/assets/com.tb.reddit/logo.png",
+				"src": "https://reddit.com",
+				"size": {
+					"width": 800,
+					"height": 650
+				},
+				"single": true,
+				"resizable": true,
+				"proxy": true
+			}
+		},
+		{
+			"name": "YouTube Music",
+			"icon": "https://tbapps.pages.dev/assets/com.tb.ytm/icon.png",
+			"description": "A new Music service with official albums, singles, videos, remixes, live performances and more for Android, iOS and desktop. It's all here.",
+			"developer": "Google",
+			"pkg-name": "youtube-music",
+			"wmArgs": {
+				"title": {
+					"text": "YouTube Music",
+					"weight": 600
+				},
+				"icon": "https://tbapps.pages.dev/assets/com.tb.ytm/icon.png",
+				"src": "https://music.youtube.com",
+				"size": {
+					"width": 600,
+					"height": 400
+				},
+				"single": true,
+				"resizable": true,
+				"proxy": true
+			}
+		},
+		{
+			"name": "TikTok",
+			"icon": "https://tbapps.pages.dev/assets/com.tb.tiktok/logo.png",
+			"description": "TikTok is THE destination for short videos",
+			"developer": "TikTok PTD",
+			"pkg-name": "tiktok",
+			"images": ["https://tbapps.pages.dev/assets/com.tb.tiktok/1.jpg", "https://tbapps.pages.dev/assets/com.tb.tiktok/2.jpg", "https://tbapps.pages.dev/assets/com.tb.tiktok/3.jpg"],
+			"wmArgs": {
+				"title": {
+					"text": "TikTok",
+					"weight": 600
+				},
+				"icon": "https://tbapps.pages.dev/assets/com.tb.tiktok/logo.png",
+				"src": "https://tiktok.com",
+				"size": {
+					"width": 800,
+					"height": 650
+				},
+				"single": true,
+				"resizable": true,
+				"proxy": true
+			}
+		},
+		{
+			"name": "legacy-almond",
+			"icon": "https://avatars.githubusercontent.com/u/109819274?s=200&v=4",
+			"description": "The old terbium video player",
+			"version": "0.1.0",
+			"developer": "Almond Services",
+			"pkg-name": "legacy-almond",
+			"pkg-download": "https://tbapps.pages.dev/assets/almond.TAPP.zip"
+		},
+		{
+			"name": "glxgears",
+			"icon": "https://tbapps.pages.dev/assets/com.tb.glxgears/glxgears.png",
+			"description": "The classic every webOS needs!",
+			"version": "1.0.0",
+			"developer": "GlxGears",
+			"pkg-name": "glxgears",
+			"pkg-download": "https://tbapps.pages.dev/assets/glxgears.TAPP.zip"
+		},
+		{
+			"name": "GitGui",
+			"icon": "https://github.com/Notplayingallday383/app-repo/raw/main/assets/git.svg",
+			"description": "The stable build of GitGui",
+			"version": "1.0.1",
+			"developer": "XSTARS",
+			"pkg-name": "gitgui",
+			"pkg-download": "https://tbapps.pages.dev/assets/gitgui.TAPP.zip"
+		},
+		{
+			"name": "xShot",
+			"icon": "https://github.com/Notplayingallday383/app-repo/raw/main/assets/xshot.svg",
+			"description": "A simple screenshoting utility for Terbium",
+			"version": "1.0-stable",
+			"developer": "XSTARS",
+			"pkg-name": "xshot",
+			"pkg-download": "https://github.com/Notplayingallday383/app-repo/raw/main/assets/xShot.TAPP.zip"
+		},
+		{
+			"name": "Apple Music",
+			"icon": "https://tbapps.pages.dev/assets/applemusic.png",
+			"description": "Get unlimited access to 100 million songs, thousands of curated playlists, and original content from the artists you know and love – all ad-free. Hear sound all around you with Spatial Audio featuring Dolby Atmos.",
+			"developer": "Apple Inc",
+			"pkg-name": "apple-music",
+			"wmArgs": {
+				"title": {
+					"text": "Apple Music",
+					"weight": 600
+				},
+				"icon": "https://tbapps.pages.dev/assets/applemusic.png",
+				"src": "https://music.apple.com",
+				"size": {
+					"width": 600,
+					"height": 400
+				},
+				"single": true,
+				"resizable": true,
+				"proxy": true
+			}
+		},
+		{
+			"name": "Roblox",
+			"icon": "https://tbapps.pages.dev/assets/roblox.ico",
+			"description": "Roblox:tm: Powered by NowGG",
+			"developer": "NowGG",
+			"pkg-name": "roblox",
+			"wmArgs": {
+				"title": {
+					"text": "Roblox",
+					"weight": 600
+				},
+				"icon": "https://tbapps.pages.dev/assets/roblox.ico",
+				"src": "https://now.gg/apps/a/19900/b.html",
+				"size": {
+					"width": 600,
+					"height": 400
+				},
+				"single": true,
+				"resizable": true,
+				"proxy": true
+			}
+		},
+		{
+			"name": "Snapchat",
+			"icon": "https://tbapps.pages.dev/assets/snap.ico",
+			"description": "(SCRAMJET ONLY) Chat, send Snaps, explore Stories, and try Lenses on desktop, or download the app on mobile! ",
+			"developer": "Snap Inc",
+			"pkg-name": "snapchat",
+			"wmArgs": {
+				"title": "Snapchat",
+				"icon": "https://tbapps.pages.dev/assets/snap.ico",
+				"src": "https://snapchat.com",
+				"size": {
+					"width": 600,
+					"height": 400
+				},
+				"single": true,
+				"resizable": true,
+				"proxy": true
+			}
+		},
+		{
+			"name": "Jellyfin",
+			"icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9hELYbRA5IB6-ci3AzpkvOTJ3BAq6-_LmMg&s",
+			"description": "All of your media, in one convenient place.",
+			"developer": "Jellyfin",
+			"pkg-name": "Jellyfin",
+			"wmArgs": {
+				"title": "Jellyfin",
+				"icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9hELYbRA5IB6-ci3AzpkvOTJ3BAq6-_LmMg&s",
+				"src": "https://jelly.ccsd.life/",
+				"size": {
+					"width": 600,
+					"height": 400
+				},
+				"single": true,
+				"resizable": true,
+				"proxy": true
+			}
 		}
 	],
 	"packages": []
