@@ -25,7 +25,7 @@
 				"resizable": true,
 				"proxy": true,
 				"requirements": {
-					"OS": "v2.0.0-beta2",
+					"os": "v2.0.0-beta2",
 					"proxy": "Scramjet"
 				}
 			}
@@ -337,3 +337,4 @@
 	],
 	"packages": []
 }
+
