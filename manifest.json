@@ -23,11 +23,10 @@
 				},
 				"single": true,
 				"resizable": true,
-				"proxy": true,
-				"requirements": {
-					"os": "v2.0.0-beta2",
-					"proxy": "Scramjet"
-				}
+				"proxy": true
+			},
+			"requirements": {
+				"os": "v2.0.0-beta2"
 			}
 		},
 		{
@@ -313,6 +312,9 @@
 				"single": true,
 				"resizable": true,
 				"proxy": true
+			},
+			"requirements": {
+				"proxy": "Scramjet"
 			}
 		},
 		{
