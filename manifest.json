@@ -130,8 +130,12 @@
 			"icon": "https://raw.githubusercontent.com/TerbiumOS/tb-repo/refs/heads/main/assets/com.tb.vscode/code.png",
 			"description": "Edit Code Files, Save Them and Commit them just like VIM or vscode!",
 			"developer": "Microsoft",
+			"version": "1.94.1",
 			"pkg-name": "code",
-			"pkg-download": "https://raw.githubusercontent.com/TerbiumOS/tb-repo/refs/heads/main/assets/vscode.tapp.zip"
+			"pkg-download": "https://raw.githubusercontent.com/TerbiumOS/tb-repo/refs/heads/main/assets/vscode.tapp.zip",
+			"requirements": {
+				"os": "2.1.0-beta"
+			}
 		},
 		{
 			"name": "Reddit",
