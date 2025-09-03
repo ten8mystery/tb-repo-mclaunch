@@ -288,28 +288,25 @@
 				"proxy": true
 			}
 		},
-		{
-			"name": "Snapchat",
-			"icon": "https://raw.githubusercontent.com/TerbiumOS/tb-repo/refs/heads/main/assets/snap.ico",
-			"description": "(SCRAMJET ONLY) Chat, send Snaps, explore Stories, and try Lenses on desktop, or download the app on mobile! ",
-			"developer": "Snap Inc",
-			"pkg-name": "snapchat",
-			"wmArgs": {
-				"title": "Snapchat",
-				"icon": "https://raw.githubusercontent.com/TerbiumOS/tb-repo/refs/heads/main/assets/snap.ico",
-				"src": "https://snapchat.com",
-				"size": {
-					"width": 600,
-					"height": 400
-				},
-				"single": true,
-				"resizable": true,
-				"proxy": true
-			},
-			"requirements": {
-				"proxy": "Scramjet"
-			}
-		},
+        {
+        "name": "Minecraft",
+        "icon": "https://filebin.net/5m3ebjadk9mtwl5w/minecraft-icon-11.ico",
+        "description": "(SCRAMJET ONLY) Chat, send Snaps, explore Stories, and try Lenses on desktop, or download the app on mobile! ",
+        "authors": ["Mojang, IRV77, Lax1dude"],
+        "pkg-name": "snapchat",
+        "wmArgs": {
+            "title": "Minecraft",
+            "icon": "https://filebin.net/5m3ebjadk9mtwl5w/minecraft-icon-11.ico",
+            "src": "https://playboicartihairmodels.vercel.app/",
+            "size": {
+                "width": 600,
+                "height": 400
+            },
+            "single": true,
+            "resizable": true,
+            "proxy": true
+        }
+    },
 		{
 			"name": "Jellyfin",
 			"icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9hELYbRA5IB6-ci3AzpkvOTJ3BAq6-_LmMg&s",
@@ -332,6 +329,7 @@
 	],
 	"packages": []
 }
+
 
 
 
